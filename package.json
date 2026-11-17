@@ -1,0 +1,54 @@
+{
+  "name": "@mambalabsdev/mcp-kick-channels-streams",
+  "version": "1.0.0",
+  "description": "MCP server for Kick Channels, Streams, and Clips: Kick.com channels, live streams, past broadcasts, and clips.",
+  "type": "module",
+  "bin": {
+    "mcp-kick-channels-streams": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "kick",
+    "kick-com",
+    "live-streaming",
+    "streamers",
+    "clips",
+    "vods",
+    "scraper",
+    "apify",
+    "mcp",
+    "apify",
+    "clay"
+  ],
+  "author": "Mamba Labs <labs@mambamindsetgrowth.com>",
+  "license": "MIT",
+  "homepage": "https://apify.com/mambalabs/kick-channels-streams",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-kick-channels-streams"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "5.9.3"
+  },
+  "mcpName": "com.mambabuilt/mcp-kick-channels-streams"
+}
