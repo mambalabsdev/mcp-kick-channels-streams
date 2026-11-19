@@ -1,7 +1,7 @@
 {
   "name": "mcp-kick-channels-streams",
   "displayName": "Kick Channels, Streams, and Clips",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "MCP server for Kick Channels, Streams, and Clips: Kick.com channels, live streams, past broadcasts, and clips.",
   "author": {
     "name": "Mamba Labs",

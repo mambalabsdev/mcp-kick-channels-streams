@@ -1,6 +1,6 @@
 {
   "name": "@mambalabsdev/mcp-kick-channels-streams",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "MCP server for Kick Channels, Streams, and Clips: Kick.com channels, live streams, past broadcasts, and clips.",
   "type": "module",
   "bin": {
